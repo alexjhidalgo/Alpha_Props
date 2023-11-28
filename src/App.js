@@ -10,11 +10,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <title>Simple Tooltip Example</title>
       <FontAwesomeIcon icon="fa-solid fa-sign-hanging" style={{color: "#00c28d", width: "15%", height: "15%", padding: "20px"}} />
+      <label>My Listings</label>
       <FontAwesomeIcon icon={faHouse} style={{color: "#5284dc", width: "15%", height: "15%", padding: "20px"}} />
+      <label>Potential Acquisitions</label>
       <FontAwesomeIcon icon={faHouseUser} style={{color: "#da9429", width: "15%", height: "15%", padding: "20px"}} />
+      <label>Property Management</label>
       <FontAwesomeIcon icon={faCommentsDollar} style={{color: "#dc240d", width: "15%", height: "15%", padding: "20px"}} />
+      <label>Cashflow</label>
       </header>
     </div>
   );
