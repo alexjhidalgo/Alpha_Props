@@ -1,13 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+
 
 function Potentials() {
   return (
-    <Link to="/potential-properties">
-      <FontAwesomeIcon icon={faCoffee} />
-    </Link>
+    <header>
+        <h1>Potential Homes and Clients</h1>
+        <p>CRM App that finds potential investment properties and handles leads for new property owning clients</p>
+    </header>
+    
   );
 }
 

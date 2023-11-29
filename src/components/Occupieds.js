@@ -1,13 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+
 
 function Occupieds() {
   return (
-    <Link to="/property-management">
-      <FontAwesomeIcon icon={faCoffee} />
-    </Link>
+    <header>
+        <h1>Occupied Property Management</h1>
+        <p>Manage occupied properties, cheak/respond to maintenance requests, review and send correspondence, and active lease management </p>
+    </header>
   );
 }
 

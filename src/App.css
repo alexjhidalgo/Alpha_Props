@@ -1,19 +1,18 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
-.App-header {
+.grid-container{
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,15 +23,17 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.icon {
+  display: flex;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none; /* Remove text decoration (e.g., underline) */
+  color: inherit; /* Use the color of the parent element */
+  width: 100%;
+  height: 100%;
 }
+

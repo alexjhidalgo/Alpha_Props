@@ -1,13 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 function Cashflows() {
   return (
-    <Link to="/cashflows">
-      <FontAwesomeIcon icon={faCoffee} />
-    </Link>
+    <header>
+        <h1>Payment Portal</h1>
+        <p>Accepts payments for rent and property management fees from clients and tenants</p>
+    </header>
   );
 }
 
