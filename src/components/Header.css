@@ -18,7 +18,6 @@ header{
   }
   
   nav li {
-    margin-right: 15px;
     display: flex;
     flex-direction: column;
   }
@@ -28,7 +27,8 @@ header{
     color: white;
   }
   
-  .icon {
+  .icons {
     display: flex;
   flex-direction: column;
+  margin-left: 50px;
   }

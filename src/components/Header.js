@@ -18,7 +18,7 @@ const Header = () => {
         <ul>
             <li>
               <Link to="/listings">
-                <div class="icon">
+                <div class="icons">
                   <FontAwesomeIcon
                   icon={faSignHanging}
                   style={{ color: "#00c28d", width: "15%", height: "15%", padding: "10px" }}
@@ -29,7 +29,7 @@ const Header = () => {
             </li>
             <li>
               <Link to="/potentials">
-                  <div class="icon">
+                  <div class="icons">
                   <FontAwesomeIcon
                   icon={faHouse}
                   style={{ color: "#5284dc", width: "15%", height: "15%", padding: "10px" }}
@@ -40,7 +40,7 @@ const Header = () => {
             </li>
             <li>
             <Link to="/occupieds">
-                <div class="icon">
+                <div class="icons">
                   <FontAwesomeIcon
                   icon={faHouseUser}
                   style={{ color: "#da9429", width: "15%", height: "15%", padding: "10px" }}
@@ -51,7 +51,7 @@ const Header = () => {
             </li>
             <li>
             <Link to="/cashflows">
-                <div class="icon">
+                <div class="icons">
                   <FontAwesomeIcon
                   icon={faCommentsDollar}
                   style={{ color: "#dc240d", width: "15%", height: "15%", padding: "10px" }}
