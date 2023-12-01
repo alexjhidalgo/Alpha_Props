@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 // Font awesome imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSignHanging, faHouse, faHouseUser, faCommentsDollar } from '@fortawesome/free-solid-svg-icons';
+import { faSignHanging, faHouse, faHouseUser, faCommentsDollar, faMoneyBillTrendUp } from '@fortawesome/free-solid-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
 library.add(faSignHanging, faHouse, faHouseUser, faCommentsDollar);
 
@@ -60,6 +60,17 @@ const Header = () => {
                 </div>
             </Link>
             </li>
+            <li>
+            <Link to="/markets">
+              <div class="icons">
+                <FontAwesomeIcon
+                  icon={faMoneyBillTrendUp}
+                  style={{ color: "#ec9f96", width: "15%", height: "15%", padding: "10px" }}
+                />
+              </div>
+              <label>Market Trends</label>
+            </Link>
+          </li>
             
           {/* <li><a href="/about">About</a></li>
           <li><a href="/contact">Contact</a></li> */}
